@@ -1,0 +1,257 @@
+
+.navbar-nav>li>a{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-right: 1px solid #e0e0e0
+}
+
+html{
+	padding-top:5px;
+}
+
+body {
+	overflow: auto;
+}
+
+.navbar{
+	height:104px !important
+}
+
+.navbar-nav>li>a:hover{
+	background: #fefefe  !important
+}
+
+
+#top {
+	max-width: 920px;
+}
+.navbar-top {
+    padding-right:0;
+	padding-left:0;
+	top: 0;
+    border-width: 0 0 1px;	
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	-webkit-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+#form-buscar{
+	padding:25px;
+}
+
+.div-sobreposta{
+	background: red;
+	position: absolute;
+	height:100%;
+	width:100%;
+	
+	opacity: 0.4;
+}
+
+.menu-menor li {
+	height:25px;
+	margin-right: 25px;
+}
+.menu-maior li {
+	background-color:#f4f4f4;
+	height:60px;
+	padding-left: 23px; 
+	padding-right: 24px;
+	text-align: center;
+	vertical-align: center;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 18px;
+}
+
+
+
+.menu-maior .diferente {
+	background-color:#e5e5e5;
+	height:60px;
+	padding-left: 12px; 
+	padding-right: 12px;
+	text-align: center;
+	vertical-align: center;
+}
+
+li:hover {
+    color: #6CA6CD;
+    cursor:pointer;
+}
+.clickable {
+	color: #333333;
+}
+.clickable:hover {
+	color: #6CA6CD;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+#menu_menor li {
+	font-size: 11px;
+	color: #212721;
+	text-transform: none;
+	float: left;
+	white-space: nowrap;
+	text-decoration: none;
+	text-align: -webkit-match-parent;
+	cursor: pointer;
+	font-family: Helvetica, Arial, Sans-Serif !important;
+	border: 0px;
+	margin-right: 30px;
+	margin-top: 5px;
+	height:18px;
+}
+
+#menu_maior li {
+	position: relative;
+	display: block;	
+}
+
+.menu-maior .diferente:hover {
+	background-color: #dbdbdb;
+}
+
+.menu-menor span, .menu-maior span {
+	font-size: 8pt;
+}
+/**
+ Concessionárias
+**/
+#concessionarias .item{min-height:250px}
+
+div.c-wrapper{
+	width: 920px;
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+	width: 100%; /* use this, or not */
+    margin: auto;
+}
+
+.footer {
+	width: 920px;
+	background-color: #f4f4f4;
+	padding-left: 25px;
+	padding-top: 35px;
+	padding-bottom: 60px;
+	border-color: #dcdcdc;
+	border-style: solid none;
+	border-width: 1px;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+.footer .section {
+	display:inline-block;
+	color: #212721;
+	overflow: hidden;	
+	text-align: left;
+	font-size: 12px;
+	width:200px;
+	font-family: Helvetica, Arial, Sans-Serif !important;
+}
+
+.divdetalhe {
+	width: 920px;
+	padding-bottom: 200px;
+	border-left: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+
+.detalhe {
+	display:inline-block;
+	color: #212721;
+	overflow: hidden;	
+	text-align: left;
+	font-size: 12px;
+	width:306px;
+	height: 200px;
+	font-family: Helvetica, Arial, Sans-Serif !important;
+}
+
+.detalhe div {
+	position: absolute;
+	display: inline-block;
+	padding-left: 10px;
+	width: 150px;
+}
+
+.detalhe p {
+	font-size: 13px;
+	color: #3a3a3a;
+	width: 272px;
+	height: auto;
+	max-height: 57px;
+	line-height: 19px;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	left: 0;
+	top: 28px;	
+}
+
+.detalhe a {
+	color: #355d8f;
+}
+.detalhe div span {
+	font-size: 14px;
+    color: #3a3a3a;
+    font-weight: bold;
+}
+
+.section p, .escondido p {
+	cursor:pointer;
+	width:150px;
+}
+
+.tit_footer {
+	font-weight: bold;
+	color: #212721;
+}
+
+#vermais1, #vermais2, #vermais3, #vermais4,
+#minimizar1, #minimizar2, #minimizar3, #minimizar4 {
+	text-decoration: underline;
+	color:#97999b;
+}
+
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+#social-media-bar {
+	float: right;
+	height: 26px;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+	margin-right: 10px;
+}
+#social-media-bar .icon {
+	float: left;
+	margin: 0 0 0 5px;
+	overflow: hidden;
+}
+
+#footer ul {
+	margin: 0;
+	overflow: hidden;
+}
+
+#footer li {
+	color: #212721;
+	float: left;
+	height: 15px;
+	margin: 10px 15px 0 0;
+	overflow: hidden;
+}
